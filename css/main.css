@@ -61,6 +61,109 @@ p{
 }
 
 .four-width{
-    width: 15%;
+    width: 20%;
     float: left;
+}
+
+.four-width-image{
+    width: 100%;
+    border-radius: 8px;
+    background-position: cover;
+}
+
+.six-width{
+    float: left;
+}
+
+.six-width-image{
+    width: 80%;
+    margin-left:10%;
+    margin-right: 10%;
+    border-radius: 8px;
+    background-position: cover;
+}
+
+.avenger-downside-div{
+    background-color: rgb(32,51,69);
+    height: 80px;
+    box-shadow: rgb(9, 14, 19);
+}
+
+.avenger-down-one{
+    float: left;
+    width: 10%;
+}
+
+.avenger-down-two{
+    float: left;
+    width: 80%;
+}
+
+.avenger-down-three{
+    float: left;
+    width: 10%;
+}
+
+.genere-down-one{
+    float: left;
+}
+
+.genere-down-two{
+    float: right;
+    color: rgb(34,116,188);
+}
+
+.genere-downside-div-inside{
+    background-color: rgb(32,51,69);
+    border: 1px solid rgb(20, 20, 14);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 35px;
+    box-shadow: rgb(7, 10, 12);
+}
+
+.see-more{
+    background-color: rgb(32,51,69);
+}
+
+.footer-div{
+    background-color: rgb(32,51,69);
+}
+
+.four-logo{
+    margin: 0 auto;
+    width: 17%;
+}
+
+.about-to-get{
+    width: 50%;
+    color: rgb(136, 125, 125) !important;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.footer-four{
+    float: left;
+    width: 25%;
+}
+
+.terms-to-help{
+    width: 40%;
+    margin: 0 auto;
+    height: 30px;
+}
+
+.footer-three{
+    float: left;
+    width: 33%;
+}
+
+.footer-logo-div{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.copyright-div{
+    width: 15%;
+    margin: 0 auto;
 }
