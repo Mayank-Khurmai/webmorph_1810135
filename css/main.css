@@ -1,3 +1,66 @@
+@charset "UTF-8";
+
 *{
-box-sixing:border-box;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #131f2c;
+}
+
+input{
+    outline: none;
+}
+
+button, div{
+    color: white;
+}
+
+.navbar-div{
+    position: fixed; 
+    top: 0; 
+    z-index: 5; 
+    background-color: rgb(32,51,69);
+}
+
+.nav-logo{
+    width: 100px;
+    height:40px;
+}
+
+.navbar-text-css{
+    color: white;
+}
+
+.section-div{
+    background-color:  rgb(21,37,53);
+}
+
+.below-navbar-left{
+    height: 400px;
+}
+
+.below-navbar-right{
+    width: 96%;
+    height: 400px;
+}
+
+p{
+    color: white;
+}
+
+.wishlist-detail-button{
+    background-color:  rgb(21,37,53);
+}
+
+.four-width{
+    width: 15%;
+    float: left;
 }
