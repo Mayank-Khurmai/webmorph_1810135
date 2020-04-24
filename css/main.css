@@ -17,6 +17,18 @@ body{
 
 input{
     outline: none;
+    width: 100%;
+}
+
+.input-search{
+    position: relative;
+}
+
+.input-search-icon{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    color: rgb(61, 61, 43);
 }
 
 button, div{
@@ -189,4 +201,61 @@ p{
 
 .alex-div li{
     list-style: none;
+}
+
+.cp{
+    cursor: pointer;
+}
+
+.play-btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 65px;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Animating Coding */
+
+
+
+.nav-logo:hover{
+    border: 2px solid ghostwhite;
+    cursor: pointer;
+}
+
+.navbar-nav li:hover{
+    border-bottom: 1px solid gray;
+}
+
+button:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+.card-hover:hover{
+    border: 1px solid gray;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: 40%;
+}
+
+.play-btn:hover, .play-btn-red:hover{
+    cursor: pointer;
+    color: red !important;
+}
+
+.avenger-hover:hover{
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.my-user:hover{
+    color: red !important;
+    cursor: pointer;
 }
