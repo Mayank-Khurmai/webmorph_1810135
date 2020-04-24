@@ -4,7 +4,8 @@ https://mayank-khurmai.github.io/webmorph_1810135/
 P.S   =>   I have used, uploaded and linked only the downloaded CDNs to use this complete webpage also for the offline purpose. 
 So, if you want to view this website online on Gitpod/Github.io or other platforms, you can replace/use the oniline link for each CDNs for faster opening of the website along with its all functioning.
 
-P.S   =>   Clone and download this complete Repository and then view in your desktop for the faster result.   
+P.S   =>   Clone and download this complete Repository and then view in your desktop for the faster result. 
+
 .
 ---------By--------
 .
