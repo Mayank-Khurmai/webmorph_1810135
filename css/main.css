@@ -167,3 +167,26 @@ p{
     width: 15%;
     margin: 0 auto;
 }
+
+
+.content-ul{
+    margin-top: 10px;
+}
+
+.director-div li{
+    list-style: none;
+}
+
+.director-div{
+    width: auto;
+    float: left;
+}
+
+.alex-div{
+    width: auto;
+    float: left;
+}
+
+.alex-div li{
+    list-style: none;
+}
