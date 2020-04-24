@@ -2,9 +2,10 @@
 <html lang="en-US">
 <head>
     <title>Mayank Khurmai FLUX</title>
+    
+    <link rel="icon" href="images/site-logo.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/main2vfd.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-1.9.1.min.js"></script>
@@ -37,8 +38,14 @@
               <li class="nav-item"><a href="#" class="nav-link">TV Shows</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Kids</a></li>              
           </ul>
-            <input type="search" class="search-profile-div rounded ml-lg-3 pl-2" placeholder="Search">
-            <i class="fa fa-user ml-4" aria-hidden="true" style="color: white; font-size: 25px;"></i>
+          <div class="input-search ml-lg-3">
+            <input type="search" class="search-profile-div rounded pl-2" placeholder="Search">
+            <i class="fa fa-search input-search-icon"></i>
+          </div>
+            <abbr title="Mayank Khurmai">
+                <i class="fa fa-user ml-4 my-user" aria-hidden="true" style="color: white; font-size: 25px;cursor: pointer;"></i>
+            </abbr>
+            
 
       </div>
   </nav>
@@ -57,8 +64,6 @@
             
             <div class="w-50 text-left p-4">
 
-
-
                 <div class="mt-3 mb-2">
                     <h2>"Money Heist : Part 4"</h2>
                 </div>
@@ -75,11 +80,11 @@
                 </div>
                 <div>
                     <button class="bg-primary p-2 rounded px-4 mx-2">
-                      <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 18px;"></i>
+                      <i class="fa fa-play play-btn-red" aria-hidden="true" style="color: white; font-size: 18px;"></i>
                       Watch
                     </button>
                     <button class="p-2 rounded px-4 mx-4 wishlist-detail-button">
-                      <i class="fa fa-plus" aria-hidden="true" style="color: white; font-size: 18px;"></i>
+                      <i class="fa fa-plus play-btn-red" aria-hidden="true" style="color: white; font-size: 18px;"></i>
                       Add to Wishlist</button>
                 </div>
                 <div class="content-ul">
@@ -102,15 +107,13 @@
                         </ul>
                     </div>
                 </div>
-                
-
-
-
-
             </div>
 
             <div class="media-body text-center mt-2 w-50">
-              <img src="images/below-navbar-right.jpg" class="below-navbar-right rounded">
+                <div style="position: relative;">
+                    <i class="fa fa-play-circle play-btn"></i>
+                    <img src="images/below-navbar-right.jpg" class="below-navbar-right rounded">
+                </div>
             </div>
         </div>
         </div>
@@ -121,16 +124,16 @@
           <div class="container-fluid py-2">
             <div class="row">
               <div class="col-3 four-width">
-                <img src="images/fan-fav-one.jpg" class="four-width-image">
+                <img src="images/fan-fav-one.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-two.jpg" class="four-width-image">
+                <img src="images/fan-fav-two.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-three.jpg" class="four-width-image">
+                <img src="images/fan-fav-three.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-four.jpg" class="four-width-image">
+                <img src="images/fan-fav-four.jpg" class="four-width-image card-hover">
               </div>
             </div>
           </div>
@@ -146,47 +149,47 @@
 
     <div class="container-fluid footer-div mt-5 p-4">
       
-      <div class="four-logo">
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-      </div>
-
-      <div class="about-to-get text-center p-2">
-          <div class="footer-four">
-              About Flux
-          </div>
-          <div class="footer-four">
-              Career
-          </div>
-          <div class="footer-four">
-              FAQ
-          </div>
-          <div class="footer-four">
-              Get the App
-          </div>
-      </div>  
-
-      <div class="terms-to-help text-center my-2">
-          <div class="footer-three">
-            Terms and Policies
-          </div>
-          <div class="footer-three">
-            Send Feedback
-          </div>
-          <div class="footer-three">
-            Help
-          </div>
-      </div>
-
-      <div class="footer-logo-div">
-        <img src="images/logo.png" class="nav-logo ml-5" alt="FLUX">
-      </div>
-
-      <div class="copyright-div text-center">
-        &copy; 1999-2020 by Flux.com
-      </div>
+        <div class="four-logo">
+            <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+            <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+            <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+            <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+        </div>
+  
+        <div class="about-to-get text-center p-3 pt-4">
+            <div class="footer-four">
+              <a href="#">About Flux</a>
+            </div>
+            <div class="footer-four">
+              <a href="#">Career</a>
+            </div>
+            <div class="footer-four">
+              <a href="#">FAQ</a>
+            </div>
+            <div class="footer-four">
+              <a href="#">Get the App</a>
+            </div>
+        </div>  
+  
+        <div class="terms-to-help text-center my-2 p-2">
+            <div class="footer-three">
+              <a href="#">Terms and Policies</a>
+            </div>
+            <div class="footer-three">
+              <a href="#">Send Feedback</a>
+            </div>
+            <div class="footer-three">
+              <a href="#">Help</a>
+            </div>
+        </div>
+  
+        <div class="footer-logo-div pt-4">
+          <img src="images/logo.png" class="nav-logo ml-5" alt="FLUX">
+        </div>
+  
+        <div class="copyright-div text-center p-2">
+          &copy; 1999-2020 by Flux.com
+        </div>
 
     </div>
  

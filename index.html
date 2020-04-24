@@ -2,9 +2,9 @@
 <html lang="en-US">
 <head>
     <title>Mayank Khurmai FLUX</title>
+    <link rel="icon" href="images/site-logo.png" type="image/icon type">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/main2vfd.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/bootstrap.css">
     <script src="js/jquery-1.9.1.min.js"></script>
@@ -28,7 +28,7 @@
         <img src="images/logo.png" class="nav-logo ml-5" alt="FLUX">
       </div>
       
-      <i class="fa fa-bars navbar-toggler text-primary ml-auto float-right" data-toggle="collapse" data-target="#open-menu" style="font-size:60px; color: white;"></i>
+      <i class="fa fa-bars navbar-toggler ml-auto float-right" data-toggle="collapse" data-target="#open-menu" style="font-size:60px; color: white;"></i>
 
       <div class="collapse navbar-collapse justify-content-end mr-lg-5 navbar-text-css" id="open-menu"> 
           <ul class="navbar-nav">
@@ -37,9 +37,14 @@
               <li class="nav-item"><a href="#" class="nav-link">TV Shows</a></li>
               <li class="nav-item"><a href="#" class="nav-link">Kids</a></li>              
           </ul>
-            <input type="search" class="search-profile-div rounded ml-lg-3 pl-2" placeholder="Search">
-            <i class="fa fa-user ml-4" aria-hidden="true" style="color: white; font-size: 25px;"></i>
-
+            <div class="input-search ml-lg-3">
+              <input type="search" class="search-profile-div rounded pl-2" placeholder="Search">
+              <i class="fa fa-search input-search-icon"></i>
+            </div>
+            
+            <abbr title="Mayank Khurmai">
+              <i class="fa fa-user ml-4 my-user" aria-hidden="true" style="color: white; font-size: 25px;cursor: pointer;"></i>
+            </abbr>
       </div>
   </nav>
 </div>
@@ -54,9 +59,12 @@
     <div class="container-fluid px-4 pb-1">
       <div class="text-center about-us-bg-div my-5">
         <div class="media px-3 flex-column flex-lg-row">
-            <img src="images/below-navbar-left.png" class="align-self-center mt-5 below-navbar-left w-25">
+            <img src="images/below-navbar-left.png" class="align-self-center mt-5 rounded below-navbar-left w-25">
             <div class="media-body text-center mt-2 w-75">
-              <img src="images/below-navbar-right.jpg" class="below-navbar-right rounded">
+              <div style="position: relative;">
+                <i class="fa fa-play-circle play-btn"></i>
+                <img src="images/below-navbar-right.jpg" class="below-navbar-right rounded">
+              </div>
               <div class="text-left ml-4">
                 <p>
                   Lives are on theline as the Professor's plan begins to unreveal and the thieves<br>
@@ -64,11 +72,11 @@
                 </p>
                 <div>
                   <button class="bg-primary p-2 rounded px-4 mx-2">
-                    <i class="fa fa-play" aria-hidden="true" style="color: white; font-size: 18px;"></i>
+                    <i class="fa fa-play play-btn-red" aria-hidden="true" style="color: white; font-size: 18px;"></i>
                     Watch
                   </button>
                   <button class="p-2 rounded px-4 mx-4 wishlist-detail-button">
-                    <i class="fa fa-plus" aria-hidden="true" style="color: white; font-size: 18px;"></i>
+                    <i class="fa fa-plus play-btn-red" aria-hidden="true" style="color: white; font-size: 18px;"></i>
                     Add to Wishlist</button>
                   <button class="p-2 rounded px-4 mx-4 wishlist-detail-button">Details</button>
                 </div>
@@ -83,16 +91,16 @@
           <div class="container-fluid py-2">
             <div class="row">
               <div class="col-3 four-width">
-                <img src="images/fan-fav-one.jpg" class="four-width-image">
+                <img src="images/fan-fav-one.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-two.jpg" class="four-width-image">
+                <img src="images/fan-fav-two.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-three.jpg" class="four-width-image">
+                <img src="images/fan-fav-three.jpg" class="four-width-image card-hover">
               </div>
               <div class="col-3 four-width">
-                <img src="images/fan-fav-four.jpg" class="four-width-image">
+                <img src="images/fan-fav-four.jpg" class="four-width-image card-hover">
               </div>
             </div>
           </div>
@@ -104,16 +112,16 @@
       <div class="container-fluid py-2">
         <div class="row">
           <div class="col-3 four-width">
-            <img src="images/fan-binge-one.jpg" class="four-width-image">
+            <img src="images/fan-binge-one.jpg" class="four-width-image card-hover">
           </div>
           <div class="col-3 four-width">
-            <img src="images/fan-binge-two.jpg" class="four-width-image">
+            <img src="images/fan-binge-two.jpg" class="four-width-image card-hover">
           </div>
           <div class="col-3 four-width">
-            <img src="images/fan-binge-three.jpg" class="four-width-image">
+            <img src="images/fan-binge-three.jpg" class="four-width-image card-hover">
           </div>
           <div class="col-3 four-width">
-            <img src="images/fan-binge-four.jpg" class="four-width-image">
+            <img src="images/fan-binge-four.jpg" class="four-width-image card-hover">
           </div>
         </div>
       </div>
@@ -125,22 +133,22 @@
       <div class="container-fluid py-2">
         <div class="row">
           <div class="col-2 six-width">
-            <img src="images/english.png" class="six-width-image">
+            <img src="images/english.png" class="six-width-image card-hover">
           </div>
           <div class="col-2 six-width">
-            <img src="images/hindi.png" class="six-width-image">
+            <img src="images/hindi.png" class="six-width-image card-hover">
           </div>
           <div class="col-2 six-width">
-            <img src="images/marathi.png" class="six-width-image">
+            <img src="images/marathi.png" class="six-width-image card-hover">
           </div>
           <div class="col-2 six-width">
-            <img src="images/telugu.png" class="six-width-image">
+            <img src="images/telugu.png" class="six-width-image card-hover">
           </div>
           <div class="col-2 six-width">
-            <img src="images/bengali.png" class="six-width-image">
+            <img src="images/bengali.png" class="six-width-image card-hover">
           </div>
           <div class="col-2 six-width">
-            <img src="images/malyalam.png" class="six-width-image">
+            <img src="images/malyalam.png" class="six-width-image card-hover">
           </div>
         </div>
       </div>
@@ -150,10 +158,10 @@
       <div class="container-fluid px-4 py-3">
         <h2>| Top Related </h2>
         <div class="container-fluid py-2 text-center">
-          <img src="images/avengers.jpg" class="w-100 h-50 rounded">
+          <img src="images/avengers.jpg" class="w-100 h-50 rounded avenger-hover">
           <div class="container avenger-downside-div rounded">
             <div class="avenger-down-one p-3">
-              <i class="fa fa-play-circle" aria-hidden="true" style="color: white; font-size: 50px;"></i>
+              <i class="fa fa-play-circle play-btn-red" aria-hidden="true" style="color: white; font-size: 50px;"></i>
              </div>
              <div class="avenger-down-two text-left">
                  <div>
@@ -164,7 +172,7 @@
                  </div>
              </div>
              <div class="avenger-down-three p-3">
-              <i class="fa fa-plus" aria-hidden="true" style="color: white; font-size: 50px;"></i>
+              <i class="fa fa-plus play-btn-red" aria-hidden="true" style="color: white; font-size: 50px;"></i>
              </div>
           </div>
         </div>
@@ -179,14 +187,14 @@
 
             <div class="col-3 four-width">
               <div>
-                <img src="images/genere-one.png" class="four-width-image">
+                <img src="images/genere-one.png" class="four-width-image card-hover">
               </div>
               <div class="container rounded px-3">
                 <div class="genere-downside-div-inside p-1 px-3">
                   <div class="genere-down-one">
                     <h5>Romance</h5>
                    </div>
-                   <div class="genere-down-two">
+                   <div class="genere-down-two cp">
                     <i class="fa fa-plus" aria-hidden="true" style="color: rgb(34,116,188);"></i>&nbsp;Explore
                    </div>
                 </div>
@@ -195,14 +203,14 @@
             
             <div class="col-3 four-width">
               <div>
-                <img src="images/genere-two.png" class="four-width-image">
+                <img src="images/genere-two.png" class="four-width-image card-hover">
               </div>
               <div class="container rounded px-3">
                 <div class="genere-downside-div-inside p-1 px-3">
                   <div class="genere-down-one">
                     <h5>Drama</h5>
                    </div>
-                   <div class="genere-down-two">
+                   <div class="genere-down-two cp">
                     <i class="fa fa-plus" aria-hidden="true" style="color: rgb(34,116,188);"></i>&nbsp;Explore
                    </div>
                 </div>
@@ -211,14 +219,14 @@
 
             <div class="col-3 four-width">
               <div>
-                <img src="images/genere-three.png" class="four-width-image">
+                <img src="images/genere-three.png" class="four-width-image card-hover">
               </div>
               <div class="container rounded px-3">
                 <div class="genere-downside-div-inside p-1 px-3">
                   <div class="genere-down-one">
                     <h5>Action</h5>
                    </div>
-                   <div class="genere-down-two">
+                   <div class="genere-down-two cp">
                     <i class="fa fa-plus" aria-hidden="true" style="color: rgb(34,116,188);"></i>&nbsp;Explore
                    </div>
                 </div>
@@ -227,14 +235,14 @@
             
             <div class="col-3 four-width">
               <div>
-                <img src="images/genere-four.png" class="four-width-image">
+                <img src="images/genere-four.png" class="four-width-image card-hover">
               </div>
               <div class="container rounded px-3">
                 <div class="genere-downside-div-inside p-1 px-3">
                   <div class="genere-down-one">
                     <h5>Comedy</h5>
                    </div>
-                   <div class="genere-down-two">
+                   <div class="genere-down-two cp">
                     <i class="fa fa-plus" aria-hidden="true" style="color: rgb(34,116,188);"></i>&nbsp;Explore
                    </div>
                 </div>
@@ -253,44 +261,44 @@
     <div class="container-fluid footer-div mt-5 p-4">
       
       <div class="four-logo">
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
-          <i class="fa fa-laptop mx-2" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+          <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+          <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+          <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
+          <i class="fa fa-laptop mx-2 cp" aria-hidden="true" style="color: white; font-size: 30px;"></i>
       </div>
 
-      <div class="about-to-get text-center p-2">
+      <div class="about-to-get text-center p-3 pt-4">
           <div class="footer-four">
-              About Flux
+            <a href="#">About Flux</a>
           </div>
           <div class="footer-four">
-              Career
+            <a href="#">Career</a>
           </div>
           <div class="footer-four">
-              FAQ
+            <a href="#">FAQ</a>
           </div>
           <div class="footer-four">
-              Get the App
+            <a href="#">Get the App</a>
           </div>
       </div>  
 
-      <div class="terms-to-help text-center my-2">
+      <div class="terms-to-help text-center my-2 p-2">
           <div class="footer-three">
-            Terms and Policies
+            <a href="#">Terms and Policies</a>
           </div>
           <div class="footer-three">
-            Send Feedback
+            <a href="#">Send Feedback</a>
           </div>
           <div class="footer-three">
-            Help
+            <a href="#">Help</a>
           </div>
       </div>
 
-      <div class="footer-logo-div">
+      <div class="footer-logo-div pt-4">
         <img src="images/logo.png" class="nav-logo ml-5" alt="FLUX">
       </div>
 
-      <div class="copyright-div text-center">
+      <div class="copyright-div text-center p-2">
         &copy; 1999-2020 by Flux.com
       </div>
 
